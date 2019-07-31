@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    <!--The navbar code was copied from Bootstrap cdn. I added the bg color and changed the text layout with ml-auto. The Footer is from mdbootstrap. I defined and coded rows and colums myself.-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-1"></div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+                
+                <a class="navbar-brand" href="#"><h2 class="bg-info text-white">Olivier Auberger</h2></a>
+           
+                    <div class="col-9">  </div>             
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                        
+                    </div>
+                  </div>
+                </div>
+              </nav>
+    
+              <div class="row"><div class="col-2"><h3 class="text-info">Contact</h3></div>
+             </div>
+             <hr></hr>
+
+
+             <div id="after_submit"></div>
+<form id="contact_form" action="mailto:oliviera89@gmail.com" method="POST" enctype="multipart/form-data">
+    <div class="container">
+    <div class="row">
+    <label class="required" for="name">Name</label>
+    <div class="col-10"></div>
+    <input id="name" class="input" name="name" type="text">
+    <span id="name_validation" class="error_message"></span>
+</div> 
+</div>
+    <div class="container">
+        <div class="row">
+    <label class="required" for="email">Email</label>
+    <div class="col-10"></div>
+    <input id="email" class="input" name="email">
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Message</label>
+    <div class="col-10"></div>
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    <input id="submit_button" type="submit" value="Submit" />
+</form>  
+</div>
+<div class="container">
+<div class="row"><a href="tel:6307761639">Call me</a>
+</div>
+
+<div class="row"><a href="skype:auberger1">Skype</a>
+</div>
+</div>
+   <!-- Footer -->
+   <footer class="page-footer">
+        <footer class="bg-secondary text-white">
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright: Bootstrap, DBootstrap.com, Olivier Auberger. 
+                </div>
+                <!-- Copyright -->
+              
+              </footer>
+              <!-- Footer -->
+                  
+
+
+
+</body>
+</html>
